@@ -1,0 +1,6 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+dist/
+build/
