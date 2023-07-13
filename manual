@@ -1,0 +1,100 @@
+
+Examples
+
+Here are some examples of using the User Management Script:
+
+    To create a new user:
+
+    perl
+
+create_user("john.doe", "john.doe@example.com", "password123", "user")
+
+To update an existing user:
+
+bash
+
+user_id = 123  # Replace with the actual user ID
+updated_data = {
+    'email': 'updated_email@example.com',
+    'role': 'admin'
+}
+update_user(user_id, updated_data)
+
+To delete a user:
+
+
+
+user_id = 123  # Replace with the actual user ID
+delete_user(user_id)
+
+To retrieve user information:
+
+
+user_id = 456  # Replace with the actual user ID
+get_user(user_id)
+
+To list all users:
+
+
+
+list_users()
+
+To change a user's password:
+
+
+
+user_id = 789  # Replace with the actual user ID
+new_password = "newpassword123"
+change_password(user_id, new_password)
+
+To validate user credentials:
+
+
+
+username = "johndoe"
+password = "password123"
+validate_credentials(username, password)
+
+To search users by email:
+
+
+
+search_email = "john.doe@example.com"
+search_users_by_email(search_email)
+
+To update a user's role:
+
+
+user_id = 123  # Replace with the actual user ID
+new_role = "editor"
+update_user_role(user_id, new_role)
+
+To validate email uniqueness:
+
+
+email = "test@example.com"
+validate_email_uniqueness(email)
+
+To disable a user account:
+
+
+user_id = 123  # Replace with the actual user ID
+disable_user(user_id)
+
+To enable a user account:
+
+
+
+user_id = 123  # Replace with the actual user ID
+enable_user(user_id)
+
+To count the total number of users:
+
+
+
+    count_users()
+
+Feel free to use these functions as needed, replacing the placeholders with actual data.
+License
+
+This project is licensed under the MIT License.
